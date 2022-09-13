@@ -31,7 +31,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            REPLAY <FontAwesomeIcon icon="fa-solid fa-tv" />
+            REPLAY <FontAwesomeIcon className='navbar-logo-svg' icon="fa-solid fa-tv" />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <FontAwesomeIcon icon={click ? 'fa-solid fa-bars' : 'fa-solid fa-bars'} />
