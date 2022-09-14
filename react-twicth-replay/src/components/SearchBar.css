@@ -1,0 +1,28 @@
+.search-bar-container {
+    display: flex;
+    margin: 3px;
+    width: 100%;
+
+    align-items: center;
+    flex-direction: row;
+    row-gap: 20px;
+
+}
+
+.search {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+
+
+}
+
+.search-text {
+    padding: 16px 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    width: 100%;
+}
